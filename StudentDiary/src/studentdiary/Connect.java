@@ -53,7 +53,7 @@ public class Connect {
     
 	public String connect(int id) { 
 		try { 
-			this.id = id;
+                        this.id = id;
 			String body =  login.select("body").text();
                        
 			obj = new JSONObject(body);
